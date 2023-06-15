@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.heading {
+  width: 503px;
+  height: 138px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 65px;
+  margin-top: 255px;
+  margin-left: 90px;
+  /* or 128% */
+
+  color: #000000;
+}
+
+.heading text {
+  color: #5f71e4;
+}
+.review-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2px 22px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(
+    6,
+    1fr
+  ); /* Adjust the number of columns as needed */
+  grid-gap: 20px;
+
+  width: 219.24px;
+  height: 281.22px;
+
+  background: #ffffff;
+  border-radius: 20px;
+
+  .review-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.3); /* Add box-shadow with blue color and blur effect */
+  }
+
+  .review-card .review-card-item:nth-child(1) {
+    top: 90px;
+    left: 500px;
+  }
+
+  .review-card .review-card-item:nth-child(2) {
+    height: 300px;
+    width: 250px;
+  }
+
+  .review-card .review-card-item:nth-child(3) {
+    height: 180px;
+    width: 400px;
+  }
+}
+
+.review-card .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.occupation {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #828282;
+}
+
+.review {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #7e7e7e;
+}
